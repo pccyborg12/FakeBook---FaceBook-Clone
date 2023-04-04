@@ -1,0 +1,360 @@
+body{
+    background-color:#dfe3ee;
+    margin: 0;
+}
+
+.navBar{
+    background-color: #3b5998;
+    /*=
+    display: flex;
+    flex-direction: row;
+    align-items: center; */
+    gap: 15px;
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+    position: fixed;
+    overflow: hidden;
+}
+.navBar .leftPart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navBar .fAKEBOOK{
+    width: 250px;
+}
+.searchDiv{
+    background-color:#f7f7f7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: fit-content;
+    width: 250px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    gap:11px;
+}
+
+.searchDiv .search{
+    border-radius: 11px;
+    width: 210px;
+    height: 25px;
+    background-color:#f7f7f7;
+    border-color:#c9c9c900;
+    outline: none;
+}
+
+.navBar .centerPart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:50px;
+    justify-content: center;
+}
+.navBar .centerPart li{
+    list-style: none;
+}
+
+.navBar .rightPart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    justify-content: flex-end;
+    padding-right: 55px;
+}
+.navBar .rightPart li{
+    list-style: none;
+}
+.navBar .rightPart .myProfile img{
+    height: 50px;
+    border-radius: 25px;
+    border: #dfe3ee 3px solid;
+}
+/* .................................................. */
+
+ .mainBody{
+    display: grid;
+    grid-template-columns:2fr 4fr 2fr;
+    grid-template-rows:0fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: #dfe3ee;
+    gap: 10px;
+}
+
+.mainBody .rightPart{
+    margin-top: -10px;
+    margin-left:-20px;
+    padding: 20px;
+   display: flex;
+   flex-direction: column;
+    gap:10px;
+    margin-top: 30px;
+} 
+.mainBody .rightPart .component h2{
+    display: inline;
+    color:#3b5998
+}
+.mainBody .rightPart .options{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    margin-top: 45px;
+}
+.mainBody .rightPart .advertisiment{
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content:center;
+}
+.mainBody .rightPart .advertisiment .adsTitle h2{
+    display: inline;
+    color:#3b5998
+}
+.mainBody .rightPart .advertisiment .imgads{
+    border: #3b5998 solid;
+    border-radius: 5px;
+    width: 350px;
+}
+
+.mainBody .rightPart .chat{
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content:center;
+}
+.mainBody .rightPart .chat .chatTitle{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #3b5998;
+}
+.mainBody .rightPart .chat .chatting{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding-left: 30px;
+}
+.mainBody .rightPart .chat .chatting img{
+    height: 30px;
+    border-radius: 25px;
+    border: #109443 solid;
+}
+.mainBody .rightPart .chat .chatting h3{
+    color: #3b5998;
+}
+
+
+
+
+
+
+
+
+
+.mainBody .timeLine{
+    margin-top: 10px;
+}
+.timeLine .Post{
+    background-color:#f7f7f7;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.timeLine .Post .postTitle{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 5px;
+}
+.timeLine .Post .postimg {
+    height: 30px;
+    border-radius: 25px;
+    border: #3b5998 solid;
+
+  
+}
+.timeLine .Post .posttext{
+    color: #3b5998;
+    margin-top: 12px;
+    font-weight: bold;
+}
+.timeLine .Post .postContent p{
+    margin-top: -5px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.685);
+}
+.timeLine .Post .postContent img{
+    width: 100%;
+}
+.timeLine .Post .reactions{
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    gap: 5px;
+    padding-left:800px;
+}
+
+.timeLine .create {
+    background-color: #ffffff;
+    padding: 15px 15px 5px 15px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    margin-top: 85px;
+}
+
+.timeLine .create .part1{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    gap: 5px;
+
+}
+.timeLine .create .part1 input{
+    width:100%;
+    padding:15px;
+    border-radius:25px;
+}
+.timeLine .create .part1 img{
+    height: 45px;
+    border-radius: 25px;
+    border: #3b5998 solid;
+}
+.timeLine .create .part2{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    padding-left: 65px;
+}
+.timeLine .create .part2 h3{
+    display: inline;
+}
+
+
+.leftpart{
+    background-color:#dfe3ee;
+    margin-top: 100px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    padding:30px;
+    flex-direction:column;
+    margin-top: -1720px;
+    gap: 20px;
+}
+
+.leftpart .aboutMe{
+    margin-top: 371px;
+    border-radius: 25px;
+    background-color:#f7f7f7;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ .leftpart .aboutMe img{
+    height: 200px;
+    width: 200px;
+    border: #3b5998 5px solid;
+    border-radius: 100px;
+    margin-left: 25%;
+    
+}
+.leftpart .aboutMe h1{
+    color: #3b5998;
+    margin-left: 20px;
+}
+.leftpart .skills{
+    margin-left:20px;
+}
+.leftpart .skills h2{
+    color: #3b5998;
+}
+.leftpart .bottom {
+    background-color: #f7f7f7;
+}
+
+
+
+
+.form-box {
+    background: #f1f7fe;
+    border-radius: 16px;
+    color: #010101;
+    width:100%;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px 24px;
+    gap: 16px;
+    text-align: center;
+}
+
+/*Form text*/
+.title {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.subtitle {
+    font-size: 1rem;
+    color: #666;
+}
+
+/*Inputs box*/
+.form-container {
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: 1rem 0 .5rem;
+    width: 100%;
+}
+.input {
+    background: none;
+    border: 0;
+    outline: 0;
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    font-size: .9rem;
+    padding: 8px 15px;
+}.form-section {
+    padding: 16px;
+    font-size: .85rem;
+    background-color: #e0ecfb;
+    box-shadow: rgb(0 0 0 / 8%) 0 -1px;
+}.form-section a {
+    font-weight: bold;
+    color: #0066ff;
+    transition: color .3s ease;
+}
+.form-section a:hover {
+    color: #005ce6;
+    text-decoration: underline;
+}
+
+/*Button*/
+.form button {
+    background-color: #0066ff;
+    color: #fff;
+    border: 0;
+    border-radius: 24px;
+    padding: 10px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+.form button:hover {
+    background-color: #005ce6;
+}
